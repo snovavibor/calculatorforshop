@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #6bddff 40%, #fff 50%, #fff 100%) no-repeat;
+}
+
+.center {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid #bdc1c2;
+}
+
+.number {
+    color: #2997bc;
+}
+
+.gray {
+    background-color: #5e584d;
+}
+
+.sky {
+    background-color: #8ca798;
+}
+
+.green {
+    background-color: #7cae35;
+}
+
+.clear:after {
+    display: block;
+    clear: both;
+
+    content: '';
+}
+
+/*----------------------------------- head -------------------------------------------*/
+.head {
+    display: flex;
+
+    align-items: center;
+}
+
+.head label {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    margin-right: 3%;
+
+    color: white;
+}
+
+.head h1 {
+    font-size: 1.7rem;
+
+    width: 50%;
+    margin-right: 10%;
+
+    color: #7cae35;
+}
+
+.cheks {
+    width: 50%;
+
+    text-align: center;
+}
+
+/* --------------------top ---------------------------------*/
+
+.top {
+    padding: 10px 0;
+
+    background-color: white;
+}
+
+.top h3 {
+    font-weight: bold;
+
+    display: inline-block;
+
+    margin-left: 10px;
+    padding: 4px 50px;
+
+    color: #7cae35;
+    background-color: #d4ecf6;
+}
+
+.innerProduct {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titleText {
+    color: #7cae35;
+}
+
+.big-p {
+    font-size: 1.1em;
+}
+
+.product {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    padding: .7em;
+
+    color: #2997bc;
+    border-right: 1px solid #bdc1c2;
+    border-bottom: 1px solid #bdc1c2;
+    border-radius: 8%;
+    background-color: white;
+}
+
+.product:hover {
+    cursor: pointer;
+
+    background-color: #d3eef5;
+}
+
+.top p {
+    text-align: center;
+}
+
+/* --------------top 2------ */
+.box {
+    display: flex;
+}
+
+.box input {
+    width: 30%;
+
+    text-align: center;
+
+    border: 1px solid gray;
+}
+
+.picter {
+    width: 40%;
+    margin-right: 5%;
+
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+.picter img {
+    width: 100%;
+}
+
+/*------------------ down block-------------------*/
+.down-block {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.level3-4 {
+    width: 80%;
+}
+
+.result {
+    width: 20%;
+
+    text-align: center;
+}
+
+.result h3 {
+    margin-top: 18%;
+}
+
+.result span {
+    font-size: 1.6em;
+}
+
+.result button,
+.formBlock button {
+    font-size: 1.3em;
+    font-weight: bold;
+
+    margin-top: 5%;
+    padding: 10px 35px;
+
+    color: white;
+    border: none;
+    border-radius: 5%;
+    background: -webkit-linear-gradient(#b6000f 0%, #b6000f 100%) no-repeat;
+    box-shadow: 2px 0 5px black;
+}
+
+.result button:hover,
+.footer-button input,
+.innerPopup span {
+    cursor: pointer;
+}
+
+.footer-button {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
+
+.footer-button input {
+    font-size: 1.1em;
+    font-weight: bold;
+
+    width: 15%;
+    padding: 5px 0;
+
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+
+/* ---------------- POPUP ----------------------------------------*/
+.wrapPopup {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 120vh;
+    padding: 20px;
+
+    background: rgba(0, 0, 0, .8);
+}
+
+.innerPopup {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+
+    border-radius: 2%;
+    background: #f8fdff;
+}
+
+.headTitle {
+    background: #f8fdff;
+}
+
+.headTitle h3 {
+    float: left;
+
+    width: 50%;
+    margin-left: 0;
+}
+
+.innerPopup span {
+    font-size: 1.7em;
+    font-weight: bold;
+
+    float: right;
+
+    margin-right: 2%;
+    padding: 1px 3px;
+
+    color: blue;
+    border: 2px solid gray;
+}
+
+.wrapTableForm {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.tableBlock {
+    padding: 1%;
+}
+
+.tableBlock table {
+    width: 50%;
+    margin: 0 auto;
+
+    border-collapse: collapse;
+
+    box-shadow: inset 2px 3px 8px 1px gray;
+}
+
+.tableBlock table tr {
+    border-right: 1px solid black;
+}
+
+.tableBlock table td {
+    text-align: center;
+
+    border-left: 1px solid black;
+}
+
+.formBlock {
+    width: 60%;
+
+    text-align: center;
+}
+
+.formBlock input {
+    margin: 10px 0;
+    padding: 5px 0;
+
+    text-align: center;
+
+    color: gray;
+}
+
+.act {
+    font-size: 1.3em;
+
+    color: green;
+    border: none;
+}
+
+.noAct {
+    font-size: 1.3em;
+
+    color: red;
+    border: none;
+}
+
+.formBlock input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 2px 3px 8px 1px gray;
+}
+
+.formBlock textarea {
+    width: 90%;
+    height: 50px;
+    padding: 5px;
+
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 2px 3px 8px 1px gray;
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form>
+        <div class="head">
+            <h1>Калькулятор стоимости на окна ПВХ Veka</h1>
+            <div class="cheks">
+                <input type="checkbox"><label>выберите окна</label>
+                <input type="checkbox"><label>укажите опции</label>
+                <input type="checkbox"><label>узнайте цену</label>
+            </div>
+        </div>
+        <!-- ******************** 1 level  ************************* -->
+        <div class="wrap-main border">
+            <div class="top">
+                <h3>Выберите тип дома</h3>
+                <div class="innerProduct" id="product">
+                    <p class="product" data-name="100">П-44</p>
+                    <p class="product" data-name="200">П-30</p>
+                    <p class="product" data-name="300">П-46М</p>
+                    <p class="product" data-name="400">П-43</p>
+                    <p class="product" data-name="500">КОПЭ</p>
+                    <p class="product" data-name="600">П-3</p>
+                    <p class="product" data-name="700">II49</p>
+                    <p class="product" data-name="800">1605</p>
+                </div>
+                <p class="big-p">Окна из профиля Veka. <b>Фурнитура Winhaus + <span class="titleText">зимнее проветривание в подарок!</span></b></p>
+            </div>
+            <!-- ********************  2 level ************************* -->
+            <div class="top" id="top2">
+                <h3>Выберите тип стеклопакета</h3>
+                <div class="innerProduct">
+                    <div class="box">
+                        <div class="picter">
+                            <img src="images/1okno.png" alt="">
+                        </div>
+                        <div class="rightBox center">
+                            <p data-win="win1">Одностворчатое<br> окно <span class="number">0</span></p>
+                            <input type="number" value="0" data-steklo-prise="1000" class="type">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="picter">
+                            <img src="images/2okno.png" alt="">
+                        </div>
+                        <div class="rightBox center">
+                            <p data-win="win2">Двухстворчатое<br> окно <span class="number">0</span></p>
+                            <input type="number" value="0" data-steklo-prise="2000" class="type">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="picter">
+                            <img src="images/3okno.png" alt="">
+                        </div>
+                        <div class="rightBox center">
+                            <p data-win="win3">Трехстворчатое<br> окно <span class="number">0</span></p>
+                            <input type="number" value="0" data-steklo-prise="3000" class="type">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="picter">
+                            <img src="images/4okno.png" alt="">
+                        </div>
+                        <div class="rightBox center">
+                            <p data-win="win4">Балконный<br> блок <span class="number">0</span></p>
+                            <input type="number" value="0" data-steklo-prise="4000" class="type">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="down-block">
+                <div class="level3-4">
+                    <!-- ********************  3 level  ************************* -->
+                    <div class="top border">
+                        <h3>Закажите услуги</h3>
+                        <div class="innerProduct">
+                            <div class="box">
+                                <div class="picter">
+                                    <img src="images/dostavka.png" alt="">
+                                </div>
+                                <div class="rightBox center">
+                                    <p>Доставка <span class="number">0</span></p>
+                                    <input type="checkbox" class="services" value="150">
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="picter">
+                                    <img src="images/demontazh.png" alt="">
+                                </div>
+                                <div class="rightBox center">
+                                    <p>Демонтаж<br> окон <span class="number">0</span></p>
+                                    <input type="checkbox" class="services" value="150">
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="picter">
+                                    <img src="images/montazh.png" alt="">
+                                </div>
+                                <div class="rightBox center">
+                                    <p>Монтаж<br> окон <span class="number">0</span></p>
+                                    <input type="checkbox" class="services" value="150">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ********************4 level************************* -->
+                    <div class="top">
+                        <h3>Закажите отделку</h3>
+                        <div class="innerProduct">
+                            <div class="box">
+                                <div class="picter">
+                                    <img src="images/podokonnik.png" alt="">
+                                </div>
+                                <div class="rightBox center">
+                                    <p>Подоконники <span class="number">0</span></p>
+                                    <input type="checkbox" class="services" value="150">
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="picter">
+                                    <img src="images/otkos.png" alt="">
+                                </div>
+                                <div class="rightBox center">
+                                    <p>Отделка<br> откосов <span class="number">0</span></p>
+                                    <input type="checkbox" class="services" value="150">
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="picter">
+                                    <img src="images/otliv.png" alt="">
+                                </div>
+                                <div class="rightBox center">
+                                    <p>Отливы <span class="number">0</span></p>
+                                    <input type="checkbox" class="services" value="150">
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="picter">
+                                    <img src="images/moskit.png" alt="">
+                                </div>
+                                <div class="rightBox center">
+                                    <p>Москитная<br> сетка <span class="number">0</span></p>
+                                    <input type="checkbox" class="services" value="150">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result border">
+                    <h3>Стоимость вашего заказа</h3>
+                    <p><span id="year">000 &#8372</span> в месяц</p>
+                    <p id="totalSum">всего 000 <span>&#8372</span></p>
+                    <button type="button" id="result">Рассчитать <br> со скидкой</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-button border center">
+            <p>Выберите ценовую категорию</p>
+            <input type="button" value="Эконом" class="gray" id="econom"></input>
+            <input type="button" value="Стандарт" class="sky" id="standart"></input>
+            <input type="button" value="Премиум" class="green" id="premium"></input>
+        </div>
+    </form>
+    <!-- POPUP -->
+    <div class="wrapPopup" id="Popup">
+        <div class="innerPopup ">
+            <div class="titleBl clear">
+                <div class="headTitle top">
+                    <h3>Ваш предварительный расчет</h3>
+                </div>
+                <span id="closePopup">X</span>
+            </div>
+            <div class="wrapTableForm">
+                <div class="tableBlock">
+                    <table border="0">
+                        <tr>
+                            <td style="border:1px solid black"></td>
+                            <td style="border:1px solid black">Количество </td>
+                            <td style="border:1px solid black">Сумма</td>
+                        </tr>
+                        <tr>
+                            <td>Одностворчатое окно</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Двухстворчатое окно</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Трехстворчатое окно</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Балконный блок</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Доставка</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Демонтаж</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Монтаж окон</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Подоконники</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Отделка откосов</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Отделка отливов</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Москитные сетки</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="border:1px solid black">ИТОГО</td>
+                        </tr>
+                    </table>
+                    <p><i>Мы гарантируем что Ваши данные не будут использованы для рассылки нежелательной информации и ни при каких условиях не будут переданы третьим лицам</i></p>
+                </div>
+                <div class="formBlock">
+                    <form>
+                        <p>Чтобы получить более точный расчет<br> от нашего менеджера, пожалуйста<br> заполните форму</p>
+                        <input type="text" value="" placeholder="ИМЯ" required><br>
+                        <input type="text" value="" placeholder="ТЕЛЕФОН" required><br>
+                        <input type="email" value="" placeholder="name@host.domen" required id="mail"><br>
+                        <textarea name="" id="message" maxlength="255" value=""></textarea><br>
+                        <p id="areaSymvols"></p>
+                        <button type="submit">Рассчитать</button>
+                        <p><i>**Стоимость окон посчитана из профиля Veka.Цена указана по акции со скидкой. Акция действует при заказе двух и более окон. Расчет сделан для дома серии 1605. Точная цена Вашего проекта будет согласована после замера.</i></p>
+                        <p><i>*Ежемесячные выплаты при беспроцентной рассрочке на 6 месяцев</i></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/my-script.js"></script>
+</body>
+
+</html>
